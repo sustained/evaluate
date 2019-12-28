@@ -2,6 +2,18 @@
 
 **e**xtremely **v**aluable **a**ndroid, **l**everaging **u**ltimate **a**lgorithms **t**o **e**valuate (code)
 
+## Usage
+
+```
+!js [1, 2, 3, 4, 5].reduce((sum, num) => sum + num, 0)
+```
+
+## Disclaimer
+
+- Be careful where you run this, if someone nukes your server or machine with it then don't blame me.
+- Very very very early/WIP.
+- Based heavily on [sbot](https://github.com/raylu/sbot) but will evolve with time.
+
 ## Installation
 
 ### Install OS dependencies
