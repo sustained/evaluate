@@ -4,7 +4,8 @@
   "description": "",
   "main": "evaluate.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node -r esm -r dotenv/config evaluate.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,12 @@
   "bugs": {
     "url": "https://github.com/sustained/evaluate/issues"
   },
-  "homepage": "https://github.com/sustained/evaluate#readme"
+  "homepage": "https://github.com/sustained/evaluate#readme",
+  "dependencies": {
+    "@discordjs/uws": "^11.149.1",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "erlpack": "github:hammerandchisel/erlpack",
+    "esm": "^3.2.25"
+  }
 }
