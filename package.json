@@ -1,0 +1,29 @@
+{
+  "name": "evaluate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "evaluate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sustained/evaluate.git"
+  },
+  "keywords": [
+    "eval",
+    "bot",
+    "run",
+    "code",
+    "sandbox",
+    "discord",
+    "js",
+    "javascript"
+  ],
+  "author": "sustained <sustained.dissonance@gmail.com> (https://sustained.name/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sustained/evaluate/issues"
+  },
+  "homepage": "https://github.com/sustained/evaluate#readme"
+}
